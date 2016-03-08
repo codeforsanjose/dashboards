@@ -1,0 +1,34 @@
+.chart {
+  min-width: 200px; 
+  height: 250px; 
+  margin: 0 auto;
+}
+
+body { 
+  font-size:16px; 
+}
+
+p { line-height: 1.4em; }
+
+.well {padding-top: 0; }
+
+.label {font-family: "Verdana"; font-size: 14px; font-weight: normal;}
+
+a {
+  color: #111;
+}
+
+[class^="icon-"],[class*=" icon-"]{ vertical-align: text-top;}
+
+.faq li { padding-top: 8px;}
+.faq li ul li {padding-top: 3px;}
+
+.nav-pills>li.active>a {
+  background-color: darkslateblue;
+
+}
+
+.note {
+  color: darkred;
+  font-style: italic;
+}
