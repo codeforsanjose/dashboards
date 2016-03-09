@@ -1,0 +1,15 @@
+body {
+    height: 100%
+}
+
+#map {
+    width: 90%;
+    height: 75%;
+    min-height: 500px;
+    margin: auto;
+}
+
+#legend {
+    background: white;
+    padding: 10px;
+}
