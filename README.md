@@ -21,9 +21,8 @@ All dependencies are reference through CDN
 * [NVD3](http://nvd3.org/index.html) - NVD3 - Reusable chart components using D3
   * [D3](https://d3js.org/) - D3 - Data Driven Documents
 * [Google Maps](https://developers.google.com/maps/) - Google Maps API
-* 
-### Directory Structure
 
+### Directory Structure
 ```bash
 dashboards
 │   README.md
