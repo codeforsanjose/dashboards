@@ -70,5 +70,8 @@ localhost:8080
 2. Make a copy of the template directory under dashboards and name it
 3. Create your dashboard under the new directory
 4. Add an image, description and link to your dashboard on the home page (index.html)
+5. Publish to gh-pages 
+ * Checkout the gh-pages branch
+ * Copy your new dashboard and other file changes
 
 
