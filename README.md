@@ -14,6 +14,45 @@ Want to help?  Join us at one of our meetups: http://www.meetup.com/Code-for-San
 
 We'd love your feedback.  File an issue: https://github.com/codeforsanjose/dashboards/issues
 
+### Dependencies
+All dependencies are reference through CDN
+* [Bootstraup](http://getbootstrap.com) - HTML and CSS layouts
+  * [JQuery](https://jquery.com/) - JQuery
+* [NVD3](http://nvd3.org/index.html) - NVD3 - Reusable chart components using D3
+  * [D3](https://d3js.org/) - D3 - Data Driven Documents
+* [Google Maps](https://developers.google.com/maps/) - Google Maps API
+* 
+### Directory Structure
+
+```bash
+dashboards
+│   README.md
+│   index.html    (navigation page for the dashboards)
+│
+├───js
+|   │ ...
+|   │
+├───css
+|   │ ...
+|   │
+├───dashboards (individual dashboards)
+|   │
+|   ├───employement-stats
+|   │
+|   ├───fire-incidents
+|   │
+|   ├───template (example dashboard)
+|   │   |
+|   |   ├───about (index.html and associated files describing the dashboard)
+|   |   ├───css 
+|   |   ├───data
+|   |   ├───js
+|   |   ├───index.html
+|   │
+|   ├───shared  (css, js, img shared across all dashboards)
+|   │
+```
+
 ## Run Locally
 
 ```bash
@@ -28,33 +67,9 @@ localhost:8080
 ```
 ## Create a Dashboard
 
-Clone the repo.  (see above to [run locally](#run-locally))
+1. Clone the repo.  (see above to [run locally](#run-locally))
+2. Make a copy of the template directory under dashboards and name it
+3. Create your dashboard under the new directory
+4. Add an image, description and link to your dashboard on the home page (index.html)
 
-### Dependencies
-All dependencies are reference through CDN
-* [Bootstraup](http://getbootstrap.com) - HTML and CSS layouts
-  * [JQuery](https://jquery.com/) - JQuery
-* [NVD3](http://nvd3.org/index.html) - NVD3 - Reusable chart components using D3
-  * [D3](https://d3js.org/) - D3 - Data Driven Documents
-* [Google Maps](https://developers.google.com/maps/) - Google Maps API
-* 
-### Directory Structure
 
-```bash
-dashboards
-│   README.md
-│   file001.txt    
-│
-└───folder1
-    │   file011.txt
-    │   file012.txt
-    │
-    ├───subfolder1
-    │   │   file111.txt
-    │   │   file112.txt
-    │   │   ...
-    │
-    └───folder2
-    │   file021.txt
-    │   file022.txt
-```
