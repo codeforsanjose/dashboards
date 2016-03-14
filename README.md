@@ -8,6 +8,8 @@
   * [Create a Dashboard](#create-a-dashboard)
   
 ## Overview
+See it live here: http://codeforsanjose.github.io/dashboards/index.html
+
 Simple dashboards using San Jose's open data.   Inspired by Chicago's Open City group - http://howsbusinesschicago.org/
 
 Want to help?  Join us at one of our meetups: http://www.meetup.com/Code-for-San-Jose/
