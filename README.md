@@ -1,5 +1,7 @@
 # Data Stories using San Jose's open data
 
+[![Stories in Ready](https://badge.waffle.io/codeforsanjose/dashboards.svg?label=ready&title=Ready)](http://waffle.io/codeforsanjose/dashboards)
+
 ## Table of contents
 
   * [Table of contents](#table-of-contents)
