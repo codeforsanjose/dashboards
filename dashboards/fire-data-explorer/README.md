@@ -3,7 +3,7 @@ Fire Data Explorer
 
 What is this?
 -------------
-An interactive visualization for exploring fire incidents in January 2015[data from the City of San Jose](http://data.sanjoseca.gov/home).
+An interactive visualization for exploring fire incidents in January 2015 [data from the City of San Jose](http://data.sanjoseca.gov/home).
 
 Cool libraries on which this is based.
 --------------------------------------
