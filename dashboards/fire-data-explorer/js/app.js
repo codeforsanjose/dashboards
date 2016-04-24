@@ -198,7 +198,7 @@ function main() {
     //var apiKey = "da255b1280151e37ba370d6c2a37b936ad023ccf"
     //url = url + "/?auth_key=" + apiKey;
 
-    var url = "https://raw.githubusercontent.com/codeforsanjose/dashboards/master/dashboards/fire-incidents/data/FireIncidents_Jan2015.csv"
+    var url = "https://raw.githubusercontent.com/codeforsanjose/dashboards/master/dashboards/fire-data-explorer/data/FireIncidents_Jan2015.csv"
     
     // Called when dc.js is filtered (typically from user click interaction)
     var onFilt = function (chart, filter) {
@@ -262,6 +262,9 @@ function main() {
     addEventHandlers(resetFilters, applyFilter);
 
   
+    // If wifi is not available - use local file
+    //d3.csv('data/FireIncidents_Jan2015.csv', function(error, data) {
+
     // Process the data and create the charts
     d3.csv(url, function (error, data) {
 
